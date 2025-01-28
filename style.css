@@ -1,0 +1,110 @@
+/* universal styles */
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    padding-left: 0 auto;
+    color: black
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* header styles */
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header li:hover{
+    font-size: 20px;
+}
+
+header a:hover{
+    color: red;
+}
+
+
+/* section styles */
+
+section .container {
+    display: flex;
+    align-items: center;
+}
+
+section h1{
+    font-size: 50px;
+    align-items: center;
+}
+
+section button{
+   background-color:blue;
+   font-size: 30px;
+   color: white; 
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+
+.content button:hover{
+    font-size: 35px;
+}
+
+
+.evarugs .eva{
+text-align: center;
+}
+
+span{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.evarugs .container{
+   justify-content: space-between;
+    
+}
+
+
+.evarugs img {
+    width: 300px;
+}
+
+
+.evarugs .text{
+    width: 300px;
+    margin-top: 0px;
+}
+
+.card h1{
+    font-size: 32px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card p{
+    color: gray;
+    line-height: 22px;
+}
+
+
+.instagram img{
+    width: 33px; 
+    height: 33px;
+}
+
+footer{
+    margin-top: 100px;
+}
